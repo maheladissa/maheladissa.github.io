@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f95833c8.css",
+    "main.js": "/static/js/main.d389f870.js",
+    "static/media/Portofolio_FosterPet.png": "/static/media/Portofolio_FosterPet.ceb659578ab7cd358112.png",
+    "static/media/avatar.png": "/static/media/avatar.0a0b4ece50564e018dbb.png",
+    "static/media/Service_Graphic.png": "/static/media/Service_Graphic.d6db6ba381deacf6571c.png",
+    "static/media/Service_UI.png": "/static/media/Service_UI.2bd507f0d5e1efe80cd5.png",
+    "static/media/Service_Web.png": "/static/media/Service_Web.cacc657a76f583be60a9.png",
+    "index.html": "/index.html",
+    "main.f95833c8.css.map": "/static/css/main.f95833c8.css.map",
+    "main.d389f870.js.map": "/static/js/main.d389f870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f95833c8.css",
+    "static/js/main.d389f870.js"
+  ]
+}
