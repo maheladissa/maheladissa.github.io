@@ -1,6 +1,10 @@
 import Header from './components/Header';
 import {useState} from "react";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
+// import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -12,6 +16,10 @@ function App() {
 
           <main className={"bg-white dark:bg-gray-900 text-gray-900 dark:text-white"}>
                 <Hero />
+                <Services />
+                <Portfolio />
+                {/*<Contact />*/}
+                <Footer />
           </main>
       </div>
   );
