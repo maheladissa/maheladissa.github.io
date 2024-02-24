@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="http://webns.net/mvcb/">
+
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:resource="http://njh.me/#me"/>
+    <foaf:primaryTopic rdf:resource="http://njh.me/#me"/>
+    <ns0:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+    <ns0:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:ID="me">
+    <foaf:name>Mahela Sankalpa Dissanayake</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:givenname>Mahela Sankalpa</foaf:givenname>
+    <foaf:family_name>Dissanayake</foaf:family_name>
+    <foaf:mbox rdf:resource="mailto:mahela@email.com"/>
+    <foaf:homepage rdf:resource="https://maheladissa.github.io/"/>
+    <foaf:depiction rdf:resource="https://maheladissa.github.io/static/media/avatar.0a0b4ece50564e018dbb.png"/>
+    <foaf:workplaceHomepage rdf:resource="https://www.kln.ac.lk/"/>
+    <foaf:schoolHomepage rdf:resource="https://www.sack.edu.lk"/>
+
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Sachin</foaf:name>
+        <foaf:mbox rdf:resource="mailto:Sachin@email.com"/>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Nipuni</foaf:name>
+        <foaf:mbox rdf:resource="mailto:Nipuni@email.com"/>
+      </foaf:Person>
+    </foaf:knows>
+
+    <foaf:knows>
+      <foaf:Person>
+        <foaf:name>Nethmini</foaf:name>
+        <foaf:mbox rdf:resource="mailto:Nethmini@email.com"/>
+      </foaf:Person>
+    </foaf:knows>
+
+  </foaf:Person>
+
+</rdf:RDF>
