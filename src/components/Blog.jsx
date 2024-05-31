@@ -1,17 +1,42 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Section from "./common/Section";
-import portfolio_fosterpet from "../assets/Portofolio_FosterPet.png";
+import blog_DBSecurity from "../assets/Blog_DBSecurity.webp";
+import blog_IDEval from "../assets/Blog_IDEval.webp";
+import blog_PPractice from "../assets/Blog_ProfessionalPractice.webp";
+import blog_SWLicense from "../assets/Blog_SWLicence.webp";
+
 
 const Blog = () => {
 
     const POSTS = [
         {
             id: 1,
-            title: "Foster Pet",
-            image: portfolio_fosterpet,
-            content: "   ",
-            link: "   ",
+            title: "Interaction Design Evaluation Methods",
+            image: blog_IDEval,
+            content: "Typically, usability inspection is aimed at finding usability problems in the design, though some methods also address issues like the severity of the usability problems and the overall usability of an entire",
+            link: "https://maheladissanayake.medium.com/interaction-design-evaluation-methods-497884dfb9c8",
+        },
+        {
+            id: 2,
+            title: "Professional Practices and Industry expectations",
+            image: blog_PPractice,
+            content: "The term ‘professional practice’ refers to the conduct and work of someone from a particular profession. A profession is any job that requires a certain level of education, skill, or training. There is typically",
+            link: "https://maheladissanayake.medium.com/professional-practices-and-industry-expectations-a71801f035bb",
+        },
+        {
+            id: 3,
+            title: "Software Licensing",
+            image: blog_SWLicense,
+            content: "A software license is an agreement between the customer and the owner of a software program that allows the customer to do certain things that would otherwise be an infringement of copyright law. The software",
+            link: "https://maheladissanayake.medium.com/software-licensing-62a8aac85d24",
+        },
+        {
+            id: 4,
+            title: "Database security",
+            image: blog_DBSecurity,
+            content: "Databases are becoming a huge part of every person’s life whether they are in the field of IT or not. From the small tasks like accessing our bank balance to running multinational corporations we are working",
+            link: "https://medium.com/@maheladissanayake/database-security-878a5b75ffce",
         },
     ];
 

@@ -1,18 +1,45 @@
 import React from 'react';
 import Section from "./common/Section";
-import {FaGithub, FaExternalLinkSquareAlt } from 'react-icons/fa';
+import {FaGithub, FaFigma, FaDribbble, FaMedium } from 'react-icons/fa';
 
-import portfolio_fosterpet from '../assets/Portofolio_FosterPet.png';
+import portfolio_fosterPet from '../assets/Portofolio_FosterPet.png';
+import portfolio_mobileBank from '../assets/Portofolio_MobileBank.png';
+import portfolio_eduApp from '../assets/Portofolio_EduApp.png';
+
 
 const Portfolio = () => {
 
     const PROJECTS = [
         {
             id: 1,
-            title: "Foster Pet",
-            image: portfolio_fosterpet,
-            github: "   ",
-            link: "   ",
+            title: "Mobile Banking App",
+            subtitle: "Designed for a Sri Lankan Bank",
+            image: portfolio_mobileBank,
+            github: "",
+            figma:"https://www.figma.com/design/QI8tAlS0zF3wF7puboI74e/Research---Mobile-Banking-App-Prototype?t=8TDCpIfhAGzLd1Hj-1",
+            medium: "",
+            dribble: "",
+
+        },
+        // {
+        //     id: 2,
+        //     title: "FosterPet",
+        //     subtitle: "A Pet Adoption Platform for Sri Lanka",
+        //     image: portfolio_fosterPet,
+        //     github: "",
+        //     figma:"https://www.figma.com/design/QI8tAlS0zF3wF7puboI74e/Research---Mobile-Banking-App-Prototype?t=8TDCpIfhAGzLd1Hj-1",
+        //     medium: "",
+        //     dribble: "",
+        // },
+        {
+            id: 3,
+            title: "Education Collaboration app",
+            subtitle: "For Sri Lankan Students",
+            image: portfolio_eduApp,
+            github: "",
+            figma:"https://www.figma.com/design/dFUkP7rv7ijUORrefz5cF7/Education-Collaboration-Platform",
+            medium: "",
+            dribble: "",
         },
     ];
 
@@ -25,20 +52,30 @@ const Portfolio = () => {
 
         <div className={"grid gap-8 lg:gap-14 lg:grid-cols-2"}>
             {
-                PROJECTS.map(PROJECTS => (
-                    <div key={PROJECTS.id} className={"max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden"}>
-                        <img src={PROJECTS.image} alt={PROJECTS.title} className={"w-2/3"} />
+                PROJECTS.map(PROJECT => {
+
+                    const icons = [
+                        PROJECT.github && <a href={PROJECT.github} target="_blank" rel="noopener noreferrer" className={"text-xl text-gray-500 cursor-pointer hover:text-gray-700 hover:scale-110"} key="github"><FaGithub /></a>,
+                        PROJECT.figma && <a href={PROJECT.figma} target="_blank" rel="noopener noreferrer" className={"text-xl text-gray-500 cursor-pointer hover:text-gray-700 hover:scale-110"} key="figma"><FaFigma /></a>,
+                        PROJECT.medium && <a href={PROJECT.medium} target="_blank" rel="noopener noreferrer" className={"text-xl text-gray-500 cursor-pointer hover:text-gray-700 hover:scale-110"} key="blog"><FaMedium /></a>,
+                        PROJECT.dribble && <a href={PROJECT.dribble} target="_blank" rel="noopener noreferrer" className={"text-xl text-gray-500 cursor-pointer hover:text-gray-700 hover:scale-110"} key="blog"><FaDribbble /></a>
+                    ].filter(Boolean);
+
+                    return (
+                    <div key={PROJECT.id} className={"max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden"}>
+                        <img src={PROJECT.image} alt={PROJECT.title} className={"w-2/3"} />
                         <div className={"flex flex-col items-center justify-evenly p-1 w-1/3"}>
-                            <h3 className={"mt-5 text-base lg:text-lg"}>{PROJECTS.title}</h3>
-                            <a href={PROJECTS.github} target="_blank" rel="noopener noreferrer" className={"text-2xl text-gray-500 cursor-pointer hover:text-gray-700 hover:scale-110"}>
-                                <FaGithub />
-                            </a>
-                            <a href={PROJECTS.link} target="_blank" rel="noopener noreferrer" className={"text-2xl text-gray-500 cursor-pointer hover:text-gray-700 hover:scale-110"}>
-                                <FaExternalLinkSquareAlt />
-                            </a>
+                            <div className={"mt-5"}>
+                                <h3 className={"text-base lg:text-lg font-semibold"}>{PROJECT.title}</h3>
+                                <h4 className={"text-sm lg:text-base text-gray-500"}>{PROJECT.subtitle}</h4>
+                            </div>
+                            <div className={`m-5 flex ${icons.length === 1 ? 'justify-center' : 'justify-between'} w-1/2`}>
+                                {icons}
+                            </div>
                         </div>
                     </div>
-                ))
+                );
+                })
             }
 
         </div>
