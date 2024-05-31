@@ -45,7 +45,7 @@ const Hero = () => {
 
     return (
         <section className={"min-h-screen flex flex-col lg:flex-row justify-start items-center p-5 text-center"}>
-            <div className={"flex flex-col lg:flex-row"}>
+            <div className={"flex flex-col lg:flex-row w-full"}>
                 <div className={"flex flex-col justify-start items-center w-full lg:w-2/3 p-5 order-last lg:order-first"}>
                     <h2 className={"text-5xl font-bold uppercase text-cyan-600"}>Mahela Dissanayake</h2>
                     <h3 className={"py-2 text-2xl"}>Software Engineer</h3>
