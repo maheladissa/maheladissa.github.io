@@ -2,7 +2,7 @@ import React from 'react';
 import Section from "./common/Section";
 import {FaGithub, FaFigma, FaDribbble, FaMedium } from 'react-icons/fa';
 
-import portfolio_fosterPet from '../assets/Portofolio_FosterPet.png';
+// import portfolio_fosterPet from '../assets/Portofolio_FosterPet.png';
 import portfolio_mobileBank from '../assets/Portofolio_MobileBank.png';
 import portfolio_eduApp from '../assets/Portofolio_EduApp.png';
 

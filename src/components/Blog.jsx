@@ -48,7 +48,7 @@ const Blog = () => {
                             <h2 className={"text-lg font-bold text-center"}>{post.title}</h2>
                         </div>
                         <div className={"flex flex-col justify-center items-center text-center"}>
-                            <img src={post.image} alt="First Image" className={"h-44 min-h-44 object-cover justify-center justify-self-center p-1"}/>
+                            <img src={post.image} alt={post.title} className={"h-44 min-h-44 object-cover justify-center justify-self-center p-1"}/>
                         </div>
                         <div>
                             <p className={"text-sm text-center"}>{post.content}...</p>
