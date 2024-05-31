@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
 import Section from "./common/Section";
 import blog_DBSecurity from "../assets/Blog_DBSecurity.webp";
 import blog_IDEval from "../assets/Blog_IDEval.webp";
