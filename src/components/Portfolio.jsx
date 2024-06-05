@@ -63,11 +63,11 @@ const Portfolio = () => {
 
                     return (
                     <div key={PROJECT.id} className={"max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden"}>
-                        <img src={PROJECT.image} alt={PROJECT.title} className={"w-2/3"} />
+                        <img src={PROJECT.image} alt={PROJECT.title} className={"w-2/3 object-cover"} />
                         <div className={"flex flex-col items-center justify-evenly p-1 w-1/3"}>
                             <div className={"mt-5"}>
-                                <h3 className={"text-base lg:text-lg font-semibold"}>{PROJECT.title}</h3>
-                                <h4 className={"text-sm lg:text-base text-gray-500"}>{PROJECT.subtitle}</h4>
+                                <h3 className={"text-sm lg:text-lg font-semibold"}>{PROJECT.title}</h3>
+                                <h4 className={"text-xs lg:text-base text-gray-500"}>{PROJECT.subtitle}</h4>
                             </div>
                             <div className={`m-5 flex ${icons.length === 1 ? 'justify-center' : 'justify-between'} w-1/2`}>
                                 {icons}
