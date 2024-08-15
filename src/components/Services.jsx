@@ -4,6 +4,8 @@ import Section from "./common/Section";
 import uiuxDesign from '../assets/Service_UI.png';
 import webDevelopment from '../assets/Service_Web.png';
 import graphicDesign from '../assets/Service_Graphic.png';
+import backEndDevelopment from '../assets/Service_Back.png';
+import cloudDevelopment from '../assets/Service_Cloud.png';
 
 const Services = () => {
 
@@ -22,6 +24,16 @@ const Services = () => {
             id: 3,
             title: "Graphic Design",
             image: graphicDesign,
+        },
+        {
+            id: 4,
+            title: "Back-End Development",
+            image: backEndDevelopment,
+        },
+        {
+            id: 5,
+            title: "Cloud Development",
+            image: cloudDevelopment,
         },
     ];
 
