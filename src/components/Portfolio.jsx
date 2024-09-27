@@ -6,6 +6,7 @@ import {FaGithub, FaFigma, FaDribbble, FaMedium } from 'react-icons/fa';
 import portfolio_mobileBank from '../assets/Portofolio_MobileBank.png';
 import portfolio_eduApp from '../assets/Portofolio_EduApp.png';
 import portfolio_weatherApp from '../assets/Portofolio_WeatherApp.png';
+import portfolio_fosterPet from '../assets/Portofolio_FosterPet.png';
 
 
 
@@ -23,16 +24,16 @@ const Portfolio = () => {
             dribble: "",
 
         },
-        // {
-        //     id: 2,
-        //     title: "FosterPet",
-        //     subtitle: "A Pet Adoption Platform for Sri Lanka",
-        //     image: portfolio_fosterPet,
-        //     github: "",
-        //     figma:"https://www.figma.com/design/QI8tAlS0zF3wF7puboI74e/Research---Mobile-Banking-App-Prototype?t=8TDCpIfhAGzLd1Hj-1",
-        //     medium: "",
-        //     dribble: "",
-        // },
+        {
+            id: 2,
+            title: "FosterPet",
+            subtitle: "A Pet Adoption Platform for Sri Lanka",
+            image: portfolio_fosterPet,
+            github: "",
+            figma:"https://www.figma.com/design/QI8tAlS0zF3wF7puboI74e/Research---Mobile-Banking-App-Prototype?t=8TDCpIfhAGzLd1Hj-1",
+            medium: "",
+            dribble: "",
+        },
         {
             id: 3,
             title: "Education Collaboration app",
