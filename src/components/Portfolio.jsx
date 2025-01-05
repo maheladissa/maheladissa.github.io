@@ -6,6 +6,7 @@ import {FaGithub, FaFigma, FaDribbble, FaMedium } from 'react-icons/fa';
 import portfolio_mobileBank from '../assets/Portofolio_MobileBank.png';
 import portfolio_eduApp from '../assets/Portofolio_EduApp.png';
 import portfolio_weatherApp from '../assets/Portofolio_WeatherApp.png';
+import portfolio_bookStore from '../assets/Portofolio_BookApp.png';
 
 
 
@@ -52,6 +53,16 @@ const Portfolio = () => {
             figma:"https://www.figma.com/design/JMSKVHp6D1iJFuO20GSlTy/WeatherApp",
             medium: "",
             dribble: "https://dribbble.com/shots/24436629-Weather-App-UI-Design",
+        },
+        {
+            id: 5,
+            title: "Book Store App",
+            subtitle: "Simple UI Design",
+            image: portfolio_bookStore,
+            github: "",
+            figma:"https://www.figma.com/design/cDw4DG36BzVTsH4a8s28MT/ChapterOne-(Book-Selling-Website)",
+            medium: "",
+            dribble: "",
         },
 
     ];
