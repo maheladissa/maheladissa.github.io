@@ -7,6 +7,7 @@ import portfolio_mobileBank from '../assets/Portofolio_MobileBank.png';
 import portfolio_eduApp from '../assets/Portofolio_EduApp.png';
 import portfolio_weatherApp from '../assets/Portofolio_WeatherApp.png';
 import portfolio_bookStore from '../assets/Portofolio_BookApp.png';
+import portfolio_workify from '../assets/Portofolio_Workify.png';
 
 
 
@@ -61,6 +62,16 @@ const Portfolio = () => {
             image: portfolio_bookStore,
             github: "",
             figma:"https://www.figma.com/design/cDw4DG36BzVTsH4a8s28MT/ChapterOne-(Book-Selling-Website)",
+            medium: "",
+            dribble: "",
+        },
+        {
+            id: 6,
+            title: "Workify",
+            subtitle: "Freelancing Website",
+            image: portfolio_workify,
+            github: "",
+            figma:"https://www.figma.com/design/AXoKZYt5l57eS4e9r0mPtA/Workify-(Freelancer-Website)",
             medium: "",
             dribble: "",
         },
