@@ -8,6 +8,9 @@ import portfolio_weatherApp from '../assets/Portofolio_WeatherApp.png';
 import portfolio_bookStore from '../assets/Portofolio_BookApp.png';
 import portfolio_workify from '../assets/Portofolio_Workify.png';
 import portfolio_fosterPet from '../assets/Portofolio_FosterPet.png';
+import portfolio_LearnZilla from '../assets/Portofolio_LearnZilla.png';
+import portfolio_MemoOs from '../assets/Portofolio_MemoOs.png';
+import portfolio_GalaxyGuardian from '../assets/Portofolio_GalaxyGuardian.png';
 
 
 
@@ -72,6 +75,36 @@ const Portfolio = () => {
             image: portfolio_workify,
             github: "",
             figma:"https://www.figma.com/design/AXoKZYt5l57eS4e9r0mPtA/Workify-(Freelancer-Website)",
+            medium: "",
+            dribble: "",
+        },
+        {
+            id: 7,
+            title: "LearnZilla",
+            subtitle: "Learning Management System",
+            image: portfolio_LearnZilla,
+            github: "https://github.com/maheladissa/LEARNZILLA",
+            figma:"",
+            medium: "",
+            dribble: "",
+        },
+        {
+            id: 8,
+            title: "MemoOS",
+            subtitle: "A Simple CMD based OS",
+            image: portfolio_MemoOs,
+            github: "https://github.com/maheladissa/memoOS",
+            figma:"",
+            medium: "",
+            dribble: "",
+        },
+        {
+            id: 9,
+            title: "Galaxy Guardian",
+            subtitle: "A Simple browser fame built on HTML, CSS and JS",
+            image: portfolio_GalaxyGuardian,
+            github: "https://github.com/maheladissa/GalaxyGuardian",
+            figma:"",
             medium: "",
             dribble: "",
         },
