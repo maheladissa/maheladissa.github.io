@@ -31,7 +31,7 @@ const Portfolio = () => {
             subtitle: "A Pet Adoption Platform for Sri Lanka",
             image: portfolio_fosterPet,
             github: "https://github.com/maheladissa/FosterPetBackend",
-            figma:"https://www.figma.com/design/QI8tAlS0zF3wF7puboI74e/Research---Mobile-Banking-App-Prototype?t=8TDCpIfhAGzLd1Hj-1",
+            figma:"https://www.figma.com/design/4xxt5VP8JorNKNxTBFMLNf/Foster-Pet?node-id=597-2052&t=rmt24tyJxrDAMl6d-1",
             medium: "",
             dribble: "",
         },
